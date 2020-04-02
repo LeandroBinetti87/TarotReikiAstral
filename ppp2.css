@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+/*html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Lucida Bright', cursive;
+  font-size: 26px;
+}*/
+
+.logo{
+	height: 3em;
+	margin: 10px;
+	margin-left: 20px;
+	float: left;
+}
+.block{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  padding-top: 8%;
+  /*font-size: 10px;*/
+}
+.block2{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.block h2{
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0;
+  top: 20%;
+  transform: translateY(-50%);
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font-size: 8vw;
+  color: #46095B;
+  font-weight: 400;
+}
+.block h3{
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0;
+  top: 20%;
+  transform: translateY(-50%);
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font-size: 3vw;
+  color: #46095B;
+  font-weight: 300;
+}
+.block2 h2{
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0;
+  top: 20%;
+  transform: translateY(-50%);
+  font-size: 5vw;
+  color: white;
+  font-weight: 400;
+}
+.block2 h3{
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0;
+  top: 20%;
+  transform: translateY(-50%);
+  font-size: 3vw;
+  color: white;
+  font-weight: 300;
+}
+.img-parallax {
+  width: 100vmax;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  pointer-events: none;
+}
+.foot{
+	background-color: black;
+	color: white;
+	height: 250px;
+	padding-left: 20px;
+	padding-top: 20px;
+	font-size: 20px;
+}
+.pinonavbar{
+	height: 4em;
+}
+.wrapper{
+	text-align: center;
+	/*float: left;*/
+}
+.wrapped{
+	display: inline-block;
+}
+.wrappedtitle{
+	display: inline-block;
+	width: 300px;
+}
+.wrappedtitle2{
+	display: inline-block;
+	font-size: 40px;
+	padding-top: 2%;
+}
+.title{
+	margin-left: 10%;
+	padding-top: 2%;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 26px;
+}
+.internalpar{
+	font-size: 2vw;
+	font-style: bold;
+	float: left;
+	margin-left: 20px;
+}
+.infofija{
+	height: 100vh;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	color: white;
+	background-image: url('fondoestrellas.jpg');
+}
+.foottext{
+	font-family: Verdana;
+	margin-left: 5%;
+	font-size: 15px;
+	color: white;
+}
+.footint{
+	float: left;
+	margin-left: 5%;
+	width: 40%;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 361px){
+.wrappedtitle{
+	display: inline-block;
+	width: 360px;
+}
+}
+
+@media only screen and (max-width: 360px){
+.wrappedtitle{
+	display: inline-block;
+	width: 360px;
+	background-color:white;
+}
+}
+
