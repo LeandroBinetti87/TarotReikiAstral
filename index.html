@@ -16,6 +16,20 @@
 				<p class="title">Tarot Reiki Astral</p>
 			</div>
 		</div>
+		<button onclick="botonFuncion()" class="dropbtn">Menu</button>
+		  <div id="myDropdown" class="dropdown-content">
+			<a href="index.html">Home</a>
+			<a href="astrologia.html">Astrología</a>
+			<a href="reiki.html">Reiki</a>
+			<a href="tarot.html">Tarot</a>
+			<a href="masajes.html">Masajes</a>
+			<a href="cursos.html">Cursos</a>
+			<a href="videos.html">Videos</a>
+			<a href="limpiezas.html">Limpiezas</a>
+			<a href="staff.html">Staff</a>
+			<a href="contacto.html">Contacto</a>
+			<a href="english.html">English</a>
+		  </div>
 	</div>
 	<div class="parallax-window" data-parallax="scroll" data-speed="0.25" data-image-src="manosol.jpg" style="height: 90vh;">
 		<div class="block">
@@ -132,5 +146,25 @@
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
-</body>  
+<script>
+	/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+	function botonFuncion() {
+		document.getElementById("myDropdown").classList.toggle("show");
+	}
+
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(event) {
+		if (!event.target.matches('.dropbtn')) {
+			var dropdowns = document.getElementsByClassName("dropdown-content");
+			var i;
+			for (i = 0; i < dropdowns.length; i++) {
+				var openDropdown = dropdowns[i];
+				if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				}
+			}
+		}
+	}
+</script>
+</body> 
 </html>
