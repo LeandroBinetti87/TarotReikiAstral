@@ -178,6 +178,10 @@ html, body{
   text-align: justify;
 }
 
+.imagen, .imagen_a, .imagen_b, .imagen_c{
+	width: 40vh;
+}
+
 /*----- Botón -----*/
 .dropbtn {
   background-color: #46095B;
