@@ -172,6 +172,12 @@ html, body{
 	margin-bottom: 10vh;
 }
 
+.texto_principal{
+  font-size: 22px;
+  color: white;
+  text-align: justify;
+}
+
 /*----- Botón -----*/
 .dropbtn {
   background-color: #46095B;
