@@ -1,12 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
-/*html, body{
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  font-family: 'Lucida Bright', cursive;
-  font-size: 26px;
-}*/
+html, body{
+  /*font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;*/
+}
 
 .logo{
 	height: 3em;
@@ -110,7 +105,7 @@
 }
 .wrappedtitle2{
 	display: inline-block;
-	font-size: 40px;
+	font-size: 50px;
 	padding-top: 2%;
 }
 .title{
@@ -126,7 +121,7 @@
 	margin-left: 20px;
 }
 .infofija{
-	height: 100vh;
+	/*height: 100vh;*/
 	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 	color: white;
 	background-image: url('fondoestrellas.jpg');
@@ -144,18 +139,37 @@
 }
 
 @media only screen and (max-width: 480px) and (min-width: 361px){
-.wrappedtitle{
-	display: inline-block;
-	width: 360px;
-}
+	.wrappedtitle{
+		display: inline-block;
+		width: 360px;
+	}
 }
 
 @media only screen and (max-width: 360px){
-.wrappedtitle{
-	display: inline-block;
-	width: 360px;
-	background-color:white;
+	.wrappedtitle{
+		display: inline-block;
+		width: 360px;
+		background-color:white;
+	}
 }
+
+.videomedida1{ /*Para videos de 1 columna*/
+	width: 40%;
+	height: 40vh;
+	margin-bottom: 10vh;
+}
+@media only screen and (max-width: 720px){
+	.videomedida1{ /*Para videos de 1 columna*/
+		width: 80%;
+		height: 40vh;
+		margin-bottom: 10vh;
+	}
+}
+
+.videomedida2{ /*Para videos de 2 columnas*/
+	width: 80%;
+	height: 40vh;
+	margin-bottom: 10vh;
 }
 
 /*----- Botón -----*/
