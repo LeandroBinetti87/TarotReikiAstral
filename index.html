@@ -10,27 +10,9 @@
 <body>
 	<script type="text/javascript" src="jquery-3.4.1.js"></script>
 	<script src="parallax.min.js"></script>
-	<div class="pinonavbar">
-		<div class="wrapper">
-			<div class="wrappedtitle">
-				<p class="title">Tarot Reiki Astral</p>
-			</div>
-		</div>
-		<button onclick="botonFuncion()" class="dropbtn">Menu</button>
-		  <div id="myDropdown" class="dropdown-content">
-			<a href="index.html">Home</a>
-			<a href="astrologia.html">Astrología</a>
-			<a href="reiki.html">Reiki</a>
-			<a href="tarot.html">Tarot</a>
-			<a href="masajes.html">Masajes</a>
-			<a href="cursos.html">Cursos</a>
-			<a href="videos.html">Videos</a>
-			<a href="limpiezas.html">Limpiezas</a>
-			<a href="staff.html">Staff</a>
-			<a href="contacto.html">Contacto</a>
-			<a href="english.html">English</a>
-		  </div>
-	</div>
+	<!----- HEADER ----->
+	<script src="header.js"></script>
+	<!----- HEADER ----->
 	<div class="parallax-window" data-parallax="scroll" data-speed="0.25" data-image-src="manosol.jpg" style="height: 90vh;">
 		<div class="block">
 			<h2>Tarot Reiki Astral</h2>
@@ -121,122 +103,9 @@
 			</div>
 		</div>
 	</div>
-
 <!----- BOOTSTRAP FOOTER ----->
-
-<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-
-  <!-- Footer Links -->
-  <div class="container text-center text-md-left mt-5">
-
-    <!-- Grid row -->
-    <div class="row mt-3">
-
-      <!-- Grid column -->
-      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-
-        <!-- Content -->
-        <h6 class="text-uppercase font-weight-bold">Tarot Reiki Astral</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>Somos un grupo dedicado al estudio de la astrología, el tarot y otras disciplinas para la mejora de la vida del individuo y la sociedad.</p>
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-        <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">Productos</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>
-          <a href="#!">Lectura y estudio de cartas</a>
-        </p>
-        <p>
-          <a href="#!">Sesiones y estudio de reiki</a>
-        </p>
-        <p>
-          <a href="#!">Estudio de astrología</a>
-        </p>
-        <p>
-          <a href="#!">Otras disciplinas</a>
-        </p>
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
-        <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">Links Utiles</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>
-          <a href="#!">facebook.com/TarotReikiAstral</a>
-        </p>
-        <p>
-          <a href="#!">twitter.com/TarotReikiAstral</a>
-        </p>
-        <p>
-          <a href="#!">youtube.com/TarotReikiAstral</a>
-        </p>
-        <!--<p>
-          <a href="#!">Help</a>
-        </p>-->
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
-        <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">Contacto</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>
-          <i class="fas fa-home mr-3"></i> San Fernando, Buenos Aires, AR</p>
-        <p>
-          <i class="fas fa-envelope mr-3"></i> tarotreikiastral@gmail.com</p>
-        <p>
-          <i class="fas fa-phone mr-3"></i> + 54 9 11 6246 7996</p>
-        <p>
-          <i class="fas fa-print mr-3"></i> + 54 9 11 5160 0578</p>
-
-      </div>
-      <!-- Grid column -->
-
-    </div>
-    <!-- Grid row -->
-
-  </div>
-  <!-- Footer Links -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">Copyright 2020
-    <a href="https://pinosoft.com.ar/"> © Pino Software</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
-<script>
-	/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
-	function botonFuncion() {
-		document.getElementById("myDropdown").classList.toggle("show");
-	}
-
-	// Close the dropdown if the user clicks outside of it
-	window.onclick = function(event) {
-		if (!event.target.matches('.dropbtn')) {
-			var dropdowns = document.getElementsByClassName("dropdown-content");
-			var i;
-			for (i = 0; i < dropdowns.length; i++) {
-				var openDropdown = dropdowns[i];
-				if (openDropdown.classList.contains('show')) {
-					openDropdown.classList.remove('show');
-				}
-			}
-		}
-	}
-</script>
+<script src="footer.js"></script>
+<!----- BOOTSTRAP FOOTER ----->
+<script src="botonFuncion.js"></script>
 </body> 
 </html>
