@@ -14,7 +14,7 @@ html, body{
   height: 100%;
   position: relative;
   overflow: hidden;
-  padding-top: 8%;
+  padding-top: 10%;
   /*font-size: 10px;*/
 }
 .block2{
@@ -32,7 +32,8 @@ html, body{
   transform: translateY(-50%);
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
   font-size: 8vw;
-  color: #46095B;
+  /*color: #46095B;*/
+  color: white;
   font-weight: 400;
 }
 .block h3{
@@ -44,7 +45,8 @@ html, body{
   transform: translateY(-50%);
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
   font-size: 3vw;
-  color: #46095B;
+  /*color: #46095B;*/
+  color: white;
   font-weight: 300;
 }
 .block2 h2{
