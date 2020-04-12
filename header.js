@@ -1,6 +1,6 @@
 document.write('\
 	<div class="pinonavbar">\
-		<div class="wrapper">\
+		<div class="wrappertitle">\
 			<div class="wrappedtitle">\
 				<p class="title">Tarot Reiki Astral</p>\
 			</div>\

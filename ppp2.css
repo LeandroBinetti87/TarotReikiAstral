@@ -49,6 +49,14 @@ html, body{
   color: white;
   font-weight: 300;
 }
+@media only screen and (max-width: 460px){
+	.block h2{
+		font-size: 10vw;
+	}
+	.block h3{
+		font-size: 5vw;
+	}
+}
 .block2 h2{
   position: relative;
   display: block;
@@ -98,6 +106,11 @@ html, body{
 	overflow: hidden;
 	flex-grow: 100; /*Toma todo el ancho restante*/
 }
+.wrappertitle{
+	text-align: center;
+	overflow: hidden;
+	flex-grow: 100; /*Toma todo el ancho restante*/
+}
 .wrapped{
 	display: inline-block;
 }
@@ -105,10 +118,23 @@ html, body{
 	display: inline-block;
 	width: 250px;
 }
+@media only screen and (max-width: 460px){
+	.wrappertitle{
+		text-align: left;
+	}
+}
 .wrappedtitle2{
 	display: inline-block;
 	font-size: 50px;
 	padding-top: 2%;
+}
+@media only screen and (max-width: 460px){
+	.wrappedtitle2{
+		font-size: 35px;
+	}
+	.wrapper h1{
+		font-size: 25px;
+	}
 }
 .title{
 	margin-left: 10%;
@@ -179,6 +205,11 @@ html, body{
   color: white;
   text-align: justify;
 }
+@media only screen and (max-width: 460px){
+	.texto_principal{
+		font-size: 16px;
+	}
+}
 
 .imagen, .imagen_a, .imagen_b, .imagen_c{
 	width: 40vh;
@@ -199,6 +230,14 @@ html, body{
 	width: 80%;
 	padding: 5px;
 	margin-left: 30px;
+}
+.parallax-window{
+	height: 95vh;
+}
+@media only screen and (max-width: 460px){
+	.parallax-window{
+		height: 60vh;
+	}
 }
 
 /*----- Botón -----*/
